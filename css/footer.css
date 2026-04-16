@@ -6,11 +6,15 @@
 .footer-container {
   display: flex;
   align-items: flex-start;
-  gap: 120px;
 }
 
 .footer-text-wrapper {
   max-width: 264px;
+  margin-right: 120px;
+}
+
+.footer-subscribe-wrapper {
+  margin-left: 80px;
 }
 
 .footer-container .footer-logo {
@@ -41,6 +45,7 @@
 .footer-subscribe-form {
   display: flex;
   align-items: center;
+  gap: 24px;
 }
 
 .footer-subscribe-input {
@@ -91,7 +96,6 @@
 }
 
 .footer-subscribe-icon {
-  margin-left: 16px;
   fill: #fff;
 }
 
