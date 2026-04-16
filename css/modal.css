@@ -80,7 +80,6 @@
 .modal form {
   display: flex;
   flex-direction: column;
-  padding: 0 24px;
 }
 
 .modal-field {
@@ -208,7 +207,7 @@
 }
 
 .modal-checkbox:checked + .custom-checkbox .custom-checkbox-icon {
-  opacity: 0;
+  opacity: 1;
 }
 
 .btn-wrapper {
