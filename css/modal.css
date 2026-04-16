@@ -54,12 +54,17 @@
   border: 1px solid rgba(46, 47, 66, 0.4);
 
   background-color: #e7e9fc;
-  fill: #2e2f42;
 
   transition:
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-close-btn {
+  fill: #2e2f42;
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close-btn:hover,
@@ -71,9 +76,13 @@
 
 .modal form {
   display: flex;
-  gap: 8px;
   flex-direction: column;
   padding: 0 24px;
+}
+
+.modal-field {
+  display: block;
+  margin-bottom: 8px;
 }
 
 .modal-title {
@@ -98,11 +107,6 @@
 
 .modal-input-wrapper {
   position: relative;
-}
-
-.modal-input-wrapper {
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 4px;
 }
 
 .modal-input {
