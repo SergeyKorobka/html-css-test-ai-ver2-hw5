@@ -69,10 +69,11 @@
 
 .footer-subscribe-input::placeholder {
   padding: 0 16px;
+  color: #fff;
 }
 
 .footer-subscribe-input:focus {
-  border-color: #4d5ae5;
+  border-color: #31d0aa;
 }
 
 .footer-subscribe-btn {
