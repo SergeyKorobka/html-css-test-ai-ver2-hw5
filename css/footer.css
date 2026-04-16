@@ -26,7 +26,7 @@
 }
 
 .footer-social-wrapper {
-  margin-right: 80px;
+  margin-right: 83px;
 }
 
 .footer-title {
@@ -69,11 +69,10 @@
 
 .footer-subscribe-input::placeholder {
   padding: 0 16px;
-  color: #fff;
 }
 
 .footer-subscribe-input:focus {
-  border-color: #31d0aa;
+  border-color: #4d5ae5;
 }
 
 .footer-subscribe-btn {
